@@ -49,6 +49,11 @@ At a high level, the pipeline follows these steps:
 
 This architecture mirrors common real-world data engineering systems.
 
+## 🏗️ System Architecture
+
+![Retail Data Engineering Architecture](diagrams/retail_data_pipeline_architecture.png)
+
+
 ---
 
 ## 🧰 Tech Stack (Free / Free-Tier)
