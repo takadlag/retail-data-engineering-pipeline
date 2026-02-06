@@ -64,24 +64,25 @@ This architecture mirrors common real-world data engineering systems.
 ---
 
 ## 📂 Repository Structure
-data/ # Sample datasets used for development and testing
-├── raw/ # Original, unmodified source data
-└── processed/ # Cleaned and transformed data outputs
 
-ingestion/ # Data ingestion logic
-└── batch/ # Batch ingestion scripts
-
-transformations/ # Data transformation logic
-├── sql/ # SQL-based transformations
-└── python/ # Python-based transformations
-
-orchestration/ # Workflow scheduling and automation
-└── airflow/ # Apache Airflow DAGs
-
-analytics/ # Business-facing outputs
-└── dashboards/ # BI dashboards and reports
-
-diagrams/ # Architecture and pipeline diagrams
+├── data/                  # Sample datasets for dev/testing
+│   ├── raw/               # Original, unmodified source data
+│   └── processed/         # Cleaned and transformed outputs
+│
+├── ingestion/             # Data ingestion logic
+│   └── batch/             # Batch ingestion scripts
+│
+├── transformations/       # Data transformation logic
+│   ├── sql/               # SQL-based transformations
+│   └── python/            # Python-based transformations
+│
+├── orchestration/         # Workflow scheduling (Airflow)
+│   └── airflow/           # Apache Airflow DAGs
+│
+├── analytics/             # Business-facing outputs
+│   └── dashboards/        # BI dashboards and reports
+│
+└── diagrams/              # Architecture and pipeline diagrams
 
 
 ---
