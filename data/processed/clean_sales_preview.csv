@@ -1,0 +1,5 @@
+invoice_id,product_id,product_name,quantity,unit_price,total_amount,invoice_date,country
+536365,85123A,White Hanging Heart T-Light Holder,6,2.55,15.30,2010-12-01,United Kingdom
+536365,71053,White Metal Lantern,6,3.39,20.34,2010-12-01,United Kingdom
+536366,84406B,Cream Cupid Hearts Coat Hanger,8,2.75,22.00,2010-12-01,United Kingdom
+536369,22752,Set 7 Babushka Nesting Boxes,2,7.65,15.30,2010-12-01,France
