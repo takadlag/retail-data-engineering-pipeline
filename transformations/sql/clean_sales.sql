@@ -21,3 +21,6 @@ WHERE
     Quantity > 0
     AND UnitPrice > 0
     AND InvoiceNo IS NOT NULL;
+
+-- raw_sales represents data loaded from:
+-- data/raw/sample_retail_sales.csv
